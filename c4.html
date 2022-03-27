@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONNECT4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "c4.css">
+</head>
+<body class = "bg-light">
+    <div class = "container">
+        <div class="jumbotron bg-dark text-light">
+            <h1 class="display-3">CONNECT 4</h1>
+            <hr class="bg-light">
+            <div class = "row">
+                <div class = "col-lg-6">Welcome to CONNECT 4. <BR>2 player game. Proceed if you know the rules.</div>  
+                <div id = "bcol" class = "col-lg-6">
+                    <button id = "starter" class="btn btn-outline-light" type="button">New Game</button>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <a href = "instructions.html" class="btn btn-light" role="button">How to Play?</a>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class = "row">
+    <div class = "col-lg-3">
+        <br><br><br><br>
+        <div class = "input-group mb-3 P1">
+            <div class="input-group-text form-control P1">
+                <input type="color" id="colorP1" value="#0000ff" title="Choose your color"></span>
+            </div>  
+            <span class="input-group-text form-control P1">&nbsp;</span>
+            <span class="input-group-text form-control P1" id="nameP1">Player1</span>
+            <span class="input-group-text form-control P1" id = "scoreP1">&nbsp;</span>
+        </div>
+        <br><br><br><br>
+    </div>
+
+    <div class = "col-lg-6">
+        <table align = 'center'>
+            <tr>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+            </tr>
+            <tr>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+            </tr>
+            <tr>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+            </tr>
+            <tr>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+            </tr>
+            <tr>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+            </tr>
+            <tr>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+                <td><span class="dot"></span></td>
+            </tr>
+        </table>
+    </div>
+    <div class = "col-lg-3">
+        <br><br><br><br>
+        <div class = "input-group mb-3 P2">
+            <span class="input-group-text form-control P2" id = "scoreP2">&nbsp;</span>
+            <span class="input-group-text form-control P2" id="nameP2">Player2</span>
+            <span class="input-group-text form-control P2">&nbsp;</span>
+            <div class="input-group-text form-control P2">
+                <input type="color" id="colorP2" value="#ff0000" title="Choose your color"></span>
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>      
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src = "c4.js"></script>
+    
+</body>
+</html>
